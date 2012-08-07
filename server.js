@@ -1,12 +1,12 @@
 // Server Node.js with socket.IO
 
 /**
- * Declare the server HTTP listen to the port 8888
+ * Declare the server HTTP listen to the port 8080
  */
 var http = require("http");
 
 var server = http.createServer();
-var app = server.listen(8888);
+var app = server.listen(8080);
 
 /**
  * Import socket.io module on the server HTTP
